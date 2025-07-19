@@ -1,0 +1,23 @@
+{
+  "name": "sirius-xm-monitor-fresh",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "esbuild src/main.tsx --bundle --platform=browser --outfile=dist/main.js --jsx=automatic"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "esbuild": "^0.21.5",
+    "typescript": "^5.5.4",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
